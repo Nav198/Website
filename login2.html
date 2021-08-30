@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Student Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	
+	<script src="https://kit.fontawesome.com/a076d05399.js"> </script>
+
+	<script src="main.js"></script>
+
+	
+</head>
+<body>
+	<header class="blankheader">
+		<img src="logo1.jpg" height="60">
+	</header>
+	<header id="logoheader"><img src="logo1.png" width="130" height="90"></header>
+	<div class="sidebar">
+		<header>Student Registration</header>
+		<ul>
+			<li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+			<li><a href="#"><i class="fas fa-link"></i>Reports</a></li>
+			<li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+			<li><a href="#"><i class="fas fa-question-circle"></i>About Us</a></li>
+			<li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
+		</ul>
+	</div>
+
+<div>
+
+	<form action="login2.html" method="post">
+		
+
+
+
+		<div id="form">
+			<h1>Registration Form</h1>
+			<div id="name">
+				<label>First Name</label>
+				<input type="text" name="fname" id="fname" placeholder="FirstName" required>
+				<label>Last Name</label>
+				<input type="text" name="lname" id="lname" placeholder="LastName" required><br>
+
+			</div>
+
+			<div id="date">
+				<label>Date of Birth</label>
+				<input type="date" id="dd"  name=""><br>
+			</div>
+
+			<div id="gender">
+				<label>Gender</label>
+				<input type="radio" name="male" id="m" value="male" >
+				<label for="male">Male</label>
+				<input type="radio" name="female"  id="f" value="female" >
+				<label for="male">Female</label>
+			</div>
+
+			<div id="mail">
+				<label>Email Id</label>
+				<input type="Email" name="mailid" id="mid" placeholder="Please Enter Email id" required>
+			</div>
+
+			<div id="mno">
+				<label>Mobile No</label>
+				<input type="text" name="mno" id="mno" placeholder="Mobile No" maxlength="10">
+			</div>
+
+			<div id="education">
+				<h2>Education Details</h2>
+                <label>SSC </label>
+                <input type="text" name="" placeholder="% out of 100" id="ssc" required>
+
+                <label>HSC</label>
+                <input type="text" name="" placeholder="% out of 100" id="hsc" required>
+
+                 <label>Degree</label>
+                <input type="text" name="" placeholder="% out of 100" id="degree" required>
+
+                 <label>PG</label>
+                <input type="text" name="" placeholder="% out of 100" id="pg" required>
+			</div>
+
+			<div id="Personal">
+				<h2>Pesonal Details</h2>
+				<label>Father's Name</label>
+				<input type="text" name="" placeholder="Father's Name " id="fathername" required>
+				<label>Mother's Name</label>
+				<input type="text" name="" placeholder="Mother's Name " id="mname" required>
+                <div id="address">
+                	<h2>Address</h2>
+                	<label>House No</label>
+                	<input type="text" name="" placeholder="Enter House No" id="hno" required>&nbsp;
+                	<label>Locality</label>
+                	<input type="text" name="" placeholder="Locality" id="locality" required>
+                	
+                    <label>Nearest Landmark</label>
+                	<input type="text" name="" placeholder="Nearest Landmark" id="landmark" required>
+                	<label>Pincode</label>
+                	<input type="text" name="" placeholder="pincode" id="pincode" required>
+                   <div id="state">
+                   	<label>State</label>
+                   	<select>
+                   		<option>Andhra Pradesh</option>
+                   		<option>Arunachal Pradesh</option>
+                   		<option>Assam</option>
+                   		<option>Bihar</option>
+                   		<option>Chattisgarh</option>
+                   		<option>Goa</option>
+                   		<option>Gujrat</option>
+                   		<option>Haryana</option>
+                   		<option>Himachal Pradesh</option>
+                   		<option>Jharkhand</option>
+                   		<option>Karnataka</option>
+                   		<option>Kerala</option>
+                   		<option>Madhya Pradesh</option>
+                   		<option>Maharashtra</option>
+                   		<option>Manipur</option>
+                   		<option>Meghalaya</option>
+                   		<option>Mizoram</option>
+                   		<option>Nagaland</option>
+                   		<option>Odisha</option>
+                   		<option>Punjab</option>
+                   		<option>Rajasthan</option>
+                   		<option>Sikkim</option>
+                   		<option>Tamilnadu</option>
+                   		<option>Telangana</option>
+                   		<option>Tripura</option>
+                   		<option>Uttar Pradesh</option>
+                   		<option>Uttarakhand</option>
+                   		<option>West Bengal</option>
+
+
+                   	</select>
+                   </div>
+              <div class="container" >
+              	  <div class="btn">
+              	  	<button onclick="register()">Register</button>
+              	  </div>
+              	
+              </div>
+                	
+                </div>
+	
+			</div>
+
+
+		</div>
+
+
+	</form>
+</div>
+
+
+<div class="footer">  
+     
+			<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
+			<li><a href="#"><i class="fab fa-twitter"></i></a></li>&nbsp;
+			<li><a href="#"><i class="fas fa-question-circle"></i> </a></li>&nbsp;
+			<li><a href="#"><i class="fas fa-envelope"></i>@CopyRight Reserved</a></li>
+</div>
+
+  
+</body>
+</html>

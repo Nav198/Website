@@ -1,0 +1,240 @@
+body{
+	font-family: 'Roboto' , sans-serif;
+	background: url(img1.jpg);
+	background-position: cover;
+	margin-top: 0;
+	padding-top: 0;
+	
+}
+
+.{
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+	text-decoration: none;
+}
+
+.sidebar
+{
+	position: fixed;
+	left: 0;
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 250px;
+	height: 100%;
+	background: #87CEFA;
+}
+
+.sidebar header{
+	font-size: 22ps;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	background: #063147;
+	user-select: none;	
+}
+
+.sidebar ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: white;
+	padding-left: 40px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255,255,255,.1);
+	border-bottom: 1px solid black;
+	transition: .4s;
+}
+
+ul li:hover a{
+	padding-left: 50px;
+}
+
+.sidebar ul a i{
+	margin-right: 16px;
+
+}
+
+
+
+#form{
+	margin-left: 350px;
+	font-size: 15px;
+	margin-top: 0px;
+	
+
+}
+
+
+#name{
+	margin-top: 10px;
+}
+#date{
+	margin-top: 10px;
+}
+
+#date label{
+	font-size: 18px;
+}
+
+#gender{
+	margin-top: 10px;
+}
+
+#mail{
+	margin-top: 10px;
+}
+
+#mail input{
+	margin-left: 24px;
+}
+
+.label
+{
+	color: white;
+	display: inline-block;
+}
+
+input{
+	width: 150px;
+}
+
+#mno{
+	margin-top: 10px;
+}
+
+#mno input{
+	margin-left: 7px;
+}
+
+#education{
+	display:block;
+
+}
+
+#education input{
+    width: 150px;
+    margin-left: 25px;
+    padding: 3px;
+    text-align: center;
+     border-radius: 24px;
+     display: inline-block;
+}
+
+#Personal{
+	margin-top: 5px;
+}
+
+#address{
+	margin-top: 5px;
+	margin-left: ;
+	
+	display: inline-block;
+}
+
+#address input{
+	margin-left: 40px;
+}
+
+#address label{
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+#state{
+	margin-top: 15px;
+}
+
+#state select{
+	margin-left: 75px;
+}
+
+
+
+
+.container{
+	position: fixed;
+	top: 93%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.btn{
+    background-color: black;
+	background: black;
+	margin-top: 5px;
+	position: relative;
+	text-align: center;
+	width: 220px;
+	padding: 4px;
+	font-size: 20px;
+	color: #F106F4;
+	font-family: poppins;
+	font-weight: 90;
+	border: 5px solid #F106F4;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 0.2s;
+
+}
+
+.btn:hover
+{
+	box-shadow: 0 5px 50px 0 #F106F4 inset,0 5px 50px 0 #F106F4 ,
+	0 5px 50px 0 #F106F4 inset,0 5px 50px 0 #F106F4 ;
+}
+
+
+.footer {  
+             position: fixed;  
+             left: 0px;  
+             bottom: 0px;  
+             right: 10px;   
+             width: 100%;  
+             margin: 10px;
+             background-color: black;  
+             color: darkred;  
+              
+             text-align: center;  
+             margin-left: 0px;
+             margin-bottom: 0px;
+
+
+            }  
+            .footer li{
+            	display: inline;
+            }
+
+            .footer li a{
+            	color: red;
+            }
+
+
+
+header{
+	width: 100%;
+	height: 60px;
+	margin-top: 0;
+
+}
+
+#logoheader{
+	position: fixed;
+	left: 1400px;
+	width: 20;
+	height: 10px;
+	margin: 10px;
+	margin-top: -82px;
+
+	
+}
+
+.blankheader{
+	margin-left: -10px;
+}
